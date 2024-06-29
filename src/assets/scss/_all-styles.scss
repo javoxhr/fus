@@ -99,6 +99,7 @@ header {
     border: none;
     font-weight: 400;
     font-size: 35px;
+    cursor: pointer;
     position: absolute;
     right: 8px;
     top: 1px;
@@ -120,4 +121,13 @@ header {
             height: 70px;
         }
     }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.10);
 }

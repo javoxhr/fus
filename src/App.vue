@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="overlay" :style="{'display': translate == 100 ? 'none' : 'block'}"></div>
     <header>
       <div class="container">
         <div class="header-logo">
